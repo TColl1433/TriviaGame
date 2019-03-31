@@ -1,3 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .bg {
+    /* The image used */
+    background-image: url("/Users/tracycollins/Bootcamp/Homework/wk05TriviaGame/assets/images/ghettoblasterlight.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1, h2, h3, li{
+      color: #ff01b1;
+      
+  }
+
+
+
+
+
+
+.jumbotron{
+    
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
+    background-color: #c0faec;
+    border-style: solid;
+    border-color: #f5d2ea;
+    border-width: 1px;
+    border-radius: 15px;
+    
+    
+    
+
+}
+
 .quiz, .summary{
     display: none;
 }
