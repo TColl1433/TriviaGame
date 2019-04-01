@@ -18,6 +18,7 @@ body, html {
 
   h1, h2, h3, li{
       color: #ff01b1;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       
   }
 
@@ -26,14 +27,16 @@ body, html {
 
 
 
-.jumbotron{
+.container-fluid{
     
     text-align: center;
     padding: 5px;
-    margin-top: 40px;
+    /* padding: 5px;
     margin-left: 190px;
-    margin-right: 190px;
+    margin-right: 190px; */
+    margin-top: 20px;
     background-color: #c0faec;
+    opacity: .7;
     border-style: solid;
     border-color: #f5d2ea;
     border-width: 1px;
